@@ -1,8 +1,5 @@
 package model;
 
-//TODO LIST: TAD.
-//an >= 0 /\ a1!=a2  invariante
-
 public class Set<T extends Comparable<T>> implements iSet<T> {
 	private Node<T> first;
 	private int size;
